@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .chu-xanh {
+            color: blue;
+            float: right;
+        }
+        table {
+            border-collapse: separate ;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <table style="background: aqua" border="2">
+        <tr>
+            <td>
+                <table style="background: white">
+                    <tr style="background: red; color: white">
+                        <th colspan="2">SỞ THÍCH CỦA BẠN</th>
+                    </tr>
+                    <tr>
+                        <td class="chu-xanh">Họ và Tên</td>
+                        <td><input type="text" style="width:220px" name="yourname"></td>
+                    </tr>
+                    <tr>
+                        <td class="chu-xanh" >Email</td>
+                        <td><input type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td class="chu-xanh">Sở thích</td>
+                        <td style="color: orange">
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" name="hobby">Thể thao</td>
+                                    <td><input type="checkbox" name="hobby">Âm nhạc</td>
+                                    <td><input type="checkbox" name="hobby">Đọc sách</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="hobby">Lướt web</td>
+                                    <td><input type="checkbox" name="hobby">Chơi game</td>
+                                    <td><input type="checkbox" name="hobby">Điện ảnh</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="hobby">Du lịch</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <form action="/action_page.php">
+                                <input type="submit" value="Gửi thông tin">
+                                <input type="reset" value="Nhập lại">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
